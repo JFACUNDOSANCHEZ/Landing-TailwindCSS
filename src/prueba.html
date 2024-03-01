@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <nav class="contenedor flex h-20 items-center justify-between ">
+            <a href="./" class="w-1/4 max-w-[140px]">
+                <img src="https://lh3.googleusercontent.com/proxy/4uBm4TnK02KGSxyvZLW3aZz3lLViDuNO9_VqYmlYB5yorWSxCDnOh_IOB-c7pQBZwkDv_2l-fcQ949jdxsSXYttraYZe3D-CXzpUwYPOHfVbpi5Mdh-Vq7rY92FR6qs"
+                    class="w-full" alt="">
+            </a>
+
+
+
+
+            <input type="checkbox" id="menu" class="peer hidden ">
+            <label for="menu"
+                class="bg-menuopen w-8 h-8  bg-center bg-cover  cursor-pointer peer-checked:bg-menuclose   transition-all z-50 md:hidden"></label>
+
+
+
+
+            <div
+                class="fixed inset-0 bg-gradient-to-b from-white/70 to-black/70 translate-x-full md:translate-x-0  md:transition-none md:static md:bg-none peer-checked:translate-x-0">
+
+                <ul
+                    class="absolute p-10 w-[80%] rounded-xl mx-auto inset-x-0 bg-white text-center top-24 grid  gap-6 font-bold  md:static md:translate-x-0 md:bg-transparent md:w-max md:grid-flow-col md:p-0 ">
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">More</a></li>
+                </ul>
+            </div>
+            <a href="#" class="buton shadow-lime-50 hidden lg:block ">Start</a>
+        </nav>
+        <section class="contenedor p-11 grid gap-8 justify-items-center items-center pb-12 md:grid-cols-2">
+    
+            <img src="https://uploads-ssl.webflow.com/63ad7d00910c7071ecb44ee8/6512bab03666b95695ba43ac_2-mac%20(1).jpg"
+                class="w-[70%] md:order-1 max-w-lg">
+            <article class="text-center space-y-6 md:text-left">
+    
+                <h1 class="font-bold text-4xl ">Computador 1.0</h1>
+                <p class="text-gray-700 text-2xl">El mejor computador que puedes comprar...</p>
+    
+             
+                <a href="#" class="buton lg:hidden shadow-lg md:mx-0 md:text-center">Start</a>
+            </article>
+        </section>
+    </header>
+    <main>
+<section class="contenedor text-center py-24 grid gap-12 md:grid-cols-2 md:text-left">
+<article>
+<h2 class="text-3xl md:text-4xl font-bold font-serif mb-6">Porque comprar en nuestra tienda?</h2>
+<p class="text-gray-500">
+    Somos la empresa lider en venta online de productos tech, contamos con asesoramiento personalizado para nuestros clientes mas el servicio de post venta
+</p>
+</article>
+<div class="grid gap-10">
+<article class="space-y-4">
+    <p
+    class="bg-gray-400/30 rounded-full font-bold flex items-center md:bg-transparent "
+    ><span 
+    class="bg-red-500 rounded-full px-6 md:py-4"
+    >1</span>
+     <span class="flex-1 p-2 md:text-3xl ">Servicio de entrega puerta a puerta</span></p>
+
+    <p>Contamos con cadeteria express con cero costo para que nuestros clientes solo gasten lo que cuesta el producto</p>
+</article>
+<article class="space-y-4">
+    <p
+    class="bg-gray-400/30  md:bg-transparent rounded-full font-bold flex items-center"
+    ><span 
+    class="bg-red-500 rounded-full px-6 md:py-4"
+    >2</span>
+     <span class="flex-1 p-2 md:text-3xl ">Atencion al cliente</span></p>
+
+    <p>Sabemos lo importante que es tener un asesoramiento las 24 horas del dia, por eso contamos con un chat bot para despejar todas tus dudas</p>
+</article>
+<article class="space-y-4">
+    <p
+    class="bg-gray-400/30  md:bg-transparent rounded-full font-bold flex items-center"
+    ><span 
+    class="bg-red-500 rounded-full px-6 md:py-4"
+    >3</span>
+     <span class="flex-1 p-2 md:text-3xl ">Servicio de post venta</span></p>
+
+    <p>¿Estas disconforme con el producto? Tranquilo todas las compras realizadas en esta tienda tienen una garantia de 2 dias y poder devolver el producto</p>
+</article>
+
+</div>
+
+</section>
+
+<section class="bg-black  font-bold ">
+<div class="contenedor text-center py-24 grid gap-6 ">
+<h2 class="text-white text-center text-3xl py-6 ">Comprar es facil y seguro</h2>
+<a href="#" class="buton max-w-[40%] mx-auto ">Comprar</a>
+</div>
+</section>
+    </main>
+
+</body>
+
+</html>
